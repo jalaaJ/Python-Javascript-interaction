@@ -13,4 +13,4 @@ app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///my_database.db"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
 # Create an instance of the database
-db = SQLAchemy(app)
+db = SQLAlchemy(app)
